@@ -1,0 +1,15 @@
+Question 1: What is the definition of server port?
+
+Answer: 
+    Web server ports are the logical endpoints of a network connection that is used
+    to exchange information between a web server and a web client.
+
+Question 2: What is server port range?
+
+Answer:
+    Port numbers range from 0 - 65535, but only port numbers 0 - 1023 are reservered
+    for privilleged services and designated as well-known ports.
+
+Question 3: How many bits does number above represent?
+
+    a port number is 16-bit unsigned integer ranging from 0 - 65535
