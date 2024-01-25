@@ -3,7 +3,7 @@
 Set up technologies used for this course & research commonly used server ports
 
 ## Instructions
-###Set Up for Virtual Private Server(VPS)
+**Set Up for Virtual Private Server(VPS)**
 We will sign up for a VPS via Digital Ocean. Follow these steps
 1. navigate to the following URL and sign up for a Digital Ocean account
     * https://www.digitalocean.com
