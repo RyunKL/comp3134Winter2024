@@ -21,7 +21,8 @@ Create a VPS using the Ubuntu distribution
 5. Skip the heading VPC Network and Select Additional Options
 6. Authentication Type
     * I used Password but SSH keys is totally viable as well
-<br>**Create your first file**<br>
+
+**Create your first file**<br>
 Create a folder named wk1 and create a text file named serverports.txt with the following info
 * What is the definition of server port?
 * What is server port range?
