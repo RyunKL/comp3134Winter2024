@@ -1,0 +1,49 @@
+Domain #1: www.square-enix-games.com
+    IP address
+    172.64.146.237
+    Type
+    IPv4
+    Hosted by
+    Cloudflare, Inc
+    Location
+    USA
+
+Domain #2: twitch.tv
+    IP address
+    151.101.66.167
+    Type
+    IPv4
+    Hosted by
+    Fastly, Inc
+    Location
+    USA
+
+Domain #3: kick.com
+    IP address
+    104.18.40.29
+    Type
+    IPv4
+    Hosted by
+    Cloudflare, Inc
+    Location
+    USA
+
+Domain #4: rumble.com
+    IP address
+    205.220.231.24
+    Type
+    IPv4
+    Hosted by
+    Path Network, Inc
+    Location
+    USA
+
+Domain #5: facebook.com
+    IP address
+    157.240.22.35
+    Type
+    IPv4
+    Hosted by
+    Facebook, Inc
+    Location
+    USA

@@ -1,0 +1,108 @@
+Domain #1
+    Domain:
+    google.ca
+    Registrar:
+    MarkMonitor International Canada Ltd.
+    Registered On:
+    2000-10-04
+    Expires On:
+    2024-04-28
+    Updated On:
+    2023-04-28
+    Status:
+    clientDeleteProhibited
+    clientTransferProhibited
+    clientUpdateProhibited
+    serverDeleteProhibited
+    serverTransferProhibited
+    serverUpdateProhibited
+    Name Servers:
+    ns1.google.com
+    ns2.google.com
+    ns3.google.com
+    ns4.google.com
+
+Domain #2
+    Domain:
+    nike.ca
+    Registrar:
+    MarkMonitor International Canada Ltd.
+    Registered On:
+    2000-10-07
+    Expires On:
+    2024-07-02
+    Updated On:
+    2022-05-31
+    Status:
+    clientDeleteProhibited
+    clientTransferProhibited
+    clientUpdateProhibited
+    Name Servers:
+    ns-v1.nike.com
+    ns-v2.nike.com
+    ns-v3.nike.com
+    ns-v4.nike.com
+
+Domain #3
+    Domain:
+    addidas.ca
+    Registrar:
+    Rebel.ca Corp.
+    Registered On:
+    2003-01-08
+    Expires On:
+    2025-01-08
+    Updated On:
+    2024-01-08
+    Status:
+    autoRenewPeriod
+    clientTransferProhibited
+    clientUpdateProhibited
+    Name Servers:
+    ns1.mm8.parklogic.com
+    ns2.mm8.parklogic.com
+
+Domain #4
+    Domain:
+    youtube.com
+    Registrar:
+    MarkMonitor Inc.
+    Registered On:
+    2005-02-15
+    Expires On:
+    2025-02-15
+    Updated On:
+    2024-01-14
+    Status:
+    clientDeleteProhibited
+    clientTransferProhibited
+    clientUpdateProhibited
+    serverDeleteProhibited
+    serverTransferProhibited
+    serverUpdateProhibited
+    Name Servers:
+    ns1.google.com
+    ns2.google.com
+    ns3.google.com
+    ns4.google.com
+
+Domain #5
+    Domain:
+    leagueoflegends.com
+    Registrar:
+    MarkMonitor Inc.
+    Registered On:
+    2007-09-25
+    Expires On:
+    2024-09-25
+    Updated On:
+    2023-08-24
+    Status:
+    clientDeleteProhibited
+    clientTransferProhibited
+    clientUpdateProhibited
+    Name Servers:
+    ns-1095.awsdns-08.org
+    ns-1809.awsdns-34.co.uk
+    ns-212.awsdns-26.com
+    ns-981.awsdns-58.net

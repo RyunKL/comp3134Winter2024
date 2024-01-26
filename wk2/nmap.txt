@@ -1,0 +1,49 @@
+root@lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01:~# nmap 142.93.153.51
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-26 05:02 UTC
+Nmap scan report for lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01 (142.93.153.51)
+Host is up (0.0000080s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+25/tcp open  smtp
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.15 seconds
+
+
+
+root@lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01:~# nmap -p 110 142.93.153.51
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-26 05:04 UTC
+Nmap scan report for lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01 (142.93.153.51)
+Host is up (0.000059s latency).
+
+PORT    STATE  SERVICE
+110/tcp closed pop3
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+
+
+
+root@lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01:~# nmap -p 20-60 142.93.153.51
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-26 05:05 UTC
+Nmap scan report for lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01 (142.93.153.51)
+Host is up (0.0000070s latency).
+Not shown: 39 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+25/tcp open  smtp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+
+
+root@lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01:~# nmap -F 142.93.153.51
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-26 05:07 UTC
+Nmap scan report for lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01 (142.93.153.51)
+Host is up (0.0000070s latency).
+Not shown: 97 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+25/tcp open  smtp
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
