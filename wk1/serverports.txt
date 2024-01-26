@@ -13,3 +13,15 @@ Answer:
 Question 3: How many bits does number above represent?
 
     a port number is 16-bit unsigned integer ranging from 0 - 65535
+
+Question 4: State 10 common server ports
+    80 - HTTP default port
+    20 - FTP Data Transfer
+    22 - SSH
+    21 - FTP Command Control
+    23 - Telnet
+    25 - SMTP E-mail Routing
+    53 - DNS service
+    110 - POP3 Postt Office Protocol
+    443 - HTTP Secure
+    123 - Network News Transfer Protocol (NNTP)
