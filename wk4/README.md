@@ -8,7 +8,7 @@ By default, there are many ports that are open of a typical Linux distribution d
 _IPtables_
 Iptables is a firewall program for Linux that will monitor traffic from and to yoru server using tables. These tables contain sets of rules, called chains, that will filter incomingg and outgoing data packets. When a packet matches a rule, it is given a **target**, which can be another chain or one of these speccial values:
 
-> **ACCEPT**    Will Allow the packet to pass through
-> **DROP**      Will not let the packet pass through
-> **RETURN**    Stops the packet from traversing through a chain and tell it to go back to the previous chain
+> **ACCEPT**    Will Allow the packet to pass through<br>
+> **DROP**      Will not let the packet pass through<br>
+> **RETURN**    Stops the packet from traversing through a chain <br> and tell it to go back to the previous chain
 
