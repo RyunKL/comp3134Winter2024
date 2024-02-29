@@ -12,32 +12,32 @@ Exemplify passive sniffing techniques on both your droplet server and localhost 
         - Source Port
         - Destination Host
         - Destination Port
-- Create a text file named **step_1.txt**
-- Write the command executed for the capture 
-- The output produced from the capture
-- The information requested for each packet
-- **NOTE** Please use the following format for the file
-    - Commands: write the commands
-    - Output: 10 lines of output
-    - Details
-    - Packet 1
-    - Source Host: (value) Source Port: (value) Destination Host: (value), Destination Port (value) x10 times total
+    - Create a text file named **step_1.txt**
+    - Write the command executed for the capture 
+    - The output produced from the capture
+    - The information requested for each packet
+    - **NOTE** Please use the following format for the file
+        - Commands: write the commands
+        - Output: 10 lines of output
+        - Details
+        - Packet 1
+        - Source Host: (value) Source Port: (value) Destination Host: (value), Destination Port (value) x10 times total
 
 2. Capture 10 HTTP packets on your droplet server
     - Display
         - Source Host
         - Source Port
 
-- in a text file named **step_2.txt**
-- Write the command executed for the capture
-- The output produced from the capture
-- The information requested for each packet
-- Please use the following format for the file
-    - Command: written command
-    - Output: 10 lines of output
-    - Details:
-    - Packet 1
-    - Source Host: (value) Source Port: (value) Destination Host: (value), Destination Port (value) x10 times total
+    - in a text file named **step_2.txt**
+    - Write the command executed for the capture
+    - The output produced from the capture
+    - The information requested for each packet
+    - Please use the following format for the file
+        - Command: written command
+        - Output: 10 lines of output
+        - Details:
+        - Packet 1
+        - Source Host: (value) Source Port: (value) Destination Host: (value), Destination Port (value) x10 times total
 
 **The following steps are to be done on a local host machine.**
 
