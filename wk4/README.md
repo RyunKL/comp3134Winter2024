@@ -1,4 +1,4 @@
-# Week 2
+# Week 4
 ## Objectives
 Demonstrate passive sniffing using WireShark in effort to identify & baseline network traffic using network monitoring tools
 
