@@ -37,7 +37,7 @@ iptables -L -v
 Create a text file named **iptables_rules_1.txt** and copy all of the output of the command above<br><br>
 
 _Manual for iptables_<br>
-A manual of command lists and describes all of its options
+A manual of command lists and describes all of its options<br>
 [ip table commands](https://linux.die.net/man/8/iptables)<br><br>
 
 _Using iptables_<br>
@@ -49,30 +49,30 @@ iptables -A <chain> -i <interface> -p <protocol (tcp/udp)>
 ## Getting Started with WireShark
 
 _What is WireShark?_<br>
-Wireshark is a free and open-source packet analyzer. It is used for network troubeshooting analysis, software and communications protocol development, and education.<br><br>
+Wireshark is a free and open-source packet analyzer. It is used for network troubeshooting analysis, software and communications protocol development, and education.<br>
 
-_How does WireShark work?_<br><br>
+_How does WireShark work?_<br>
 Whireshark is a packet sniffer and analysis tool that captures network traffic on the local network and stores that data for offline analysis. Wireshark captures network traffic from Ethernet, Bluetooth, Wireless, Token, Ring, Frame Relay connection, and more.<br><br>
-**NOTE** A packet is a single message from any network protocol<br><br>
+**NOTE** A packet is a single message from any network protocol<br>
 
-_Installation_<br><br>
+_Installation_<br>
 If you are using WireShark on your personal machines, please following the installation instructions below.<br><br>
 
 [Official WireShark Download Website](https://www.wireshark.org/download.html)
 
-## Runningg WireShark for the First Time
+## Running WireShark for the First Time
 
-Louching WireShark for the first time, you will see a welcome screen. If you do not see this or you want to start a new capture click on Capture -> Options from the menu-> Select either Ethernet or Wi-fi<br><br>
+Louching WireShark for the first time, you will see a welcome screen. If you do not see this or you want to start a new capture click on Capture -> Options from the menu-> Select either Ethernet or Wi-fi<br>
 
-_Display Filter_<br><br>
+_Display Filter_<br>
 There may be times where you would like tto capture all traffic but filter the captured traffic. To accomplish this, navigate to the **Filter Toolbar**. For more, Here is a guide to futher understand how to best use the filter toolbar
 
-[Filter Toolbar Guide](https://wiki.wireshark.org/DisplayFilters#Examples)<br><br>
+[Filter Toolbar Guide](https://wiki.wireshark.org/DisplayFilters#Examples)<br>
 
 _Capture Filters_<br>
 There may be times where you'd like to only capture specific traffic. To accomplish this, start a new capture by clicking on Capture -> Options from the Menu. Here is a guide
 
-[Capture Filters Guide](https://wiki.wireshark.org/CaptureFilters#Capture_filter_is_not_a_display_filter)<br><br>
+[Capture Filters Guide](https://wiki.wireshark.org/CaptureFilters#Capture_filter_is_not_a_display_filter)<br>
 
 _Switch Captures_<br>
 Stop the current Capture by clicking on Capture -> Stop, Start a new Capture by clicking on Capture ->Start<br>
