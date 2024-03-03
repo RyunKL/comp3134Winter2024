@@ -1,0 +1,82 @@
+/*COMMAND*/
+
+tcpdump -c 10 -i eth0 udp
+
+/*OUTPUT*/
+
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+05:25:15.205221 IP 186.233.119.15.8081 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.30301: UDP, length 85
+05:25:15.263124 IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.59715 > 67.207.67.3.domain: 1922+ [1au] PTR? 51.153.93.142.in-addr.arpa. (55)
+05:25:15.342690 IP 67.207.67.3.domain > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.59715: 1922 NXDomain 0/1/1 (122)
+05:25:15.342960 IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.59715 > 67.207.67.3.domain: 1922+ PTR? 51.153.93.142.in-addr.arpa. (44)
+05:25:15.343897 IP 67.207.67.3.domain > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.59715: 1922 NXDomain 0/1/0 (111)
+05:25:15.345030 IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.51449 > 67.207.67.3.domain: 55099+ [1au] PTR? 15.119.233.186.in-addr.arpa. (56)
+05:25:15.345213 IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.50715 > 67.207.67.3.domain: 10110+ [1au] PTR? 15.119.233.186.in-addr.arpa. (56)
+05:25:15.347913 IP 67.207.67.3.domain > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.50715: 10110 NXDomain 0/1/1 (116)
+05:25:15.347913 IP 67.207.67.3.domain > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.51449: 55099 NXDomain 0/1/1 (116)
+05:25:15.348121 IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.50715 > 67.207.67.3.domain: 10110+ PTR? 15.119.233.186.in-addr.arpa. (45)
+10 packets captured
+21 packets received by filter
+0 packets dropped by kernel
+
+/*DETAILS*/
+PACKET 1)
+    Source Host: 186.233.119.15
+    Source Port: 8081
+    Destination Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Destination Port: 30301
+
+PACKET 2)
+    Source Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Source Port: 59715
+    Destination Host: 67.207.67.3
+    Destination Port: domain
+
+PACKET 3)
+    Source Host: 67.207.67.3
+    Source Port: domain
+    Destination Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Destination Port: 59715
+
+PACKET 4)
+    Source Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Source Port: 59715
+    Destination Host: 67.207.67.3
+    Destination Port: domain
+
+PACKET 5)
+    Source Host: 67.207.67.3
+    Source Port: domain
+    Destination Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Destination Port: 59715
+
+PACKET 6)
+    Source Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Source Port: 51449
+    Destination Host: 67.207.67.3
+    Destination Port: domain
+
+PACKET 7)
+    Source Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Source Port: 50715
+    Destination Host: 67.207.67.3
+    Destination Port: domain
+
+PACKET 8)
+    Source Host: 67.207.67.3
+    Source Port: domain
+    Destination Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Destination Port: 50715
+
+PACKET 9)
+    Source Host: 67.207.67.3
+    Source Port: domain
+    Destination Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Destination Port: 51449
+
+PACKET 10)
+    Source Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Source Port: 50715
+    Destination Host: 67.207.67.3
+    Destination Port: domain

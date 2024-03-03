@@ -1,0 +1,83 @@
+/*COMMAND*/
+
+tcpdump -c 10 -i eth0 'tcp port 80'
+
+/*OUTPUT*/
+
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+06:03:23.577057 IP 143.110.222.166.49122 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.http: Flags [S], seq 2948449805, win 64240, options [mss 1460,sackOK,TS val 2084362260 ecr 0,nop,wscale 7], length 0
+06:03:23.577153 IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.http > 143.110.222.166.49122: Flags [S.], seq 714119023, ack 2948449806, win 65160, options [mss 1460,sackOK,TS val 3931800161 ecr 2084362260,nop,wscale 7], length 0
+06:03:23.578330 IP 143.110.222.166.49122 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.http: Flags [.], ack 1, win 502, options [nop,nop,TS val 2084362262 ecr 3931800161], length 0
+06:03:23.590703 IP 143.110.222.166.49122 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.http: Flags [P.], seq 1:225, ack 1, win 502, options [nop,nop,TS val 2084362274 ecr 3931800161], length 224: HTTP: GET / HTTP/1.1
+06:03:23.590889 IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.http > 143.110.222.166.49122: Flags [.], ack 225, win 508, options [nop,nop,TS val 3931800174 ecr 2084362274], length 0
+06:03:23.591904 IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.http > 143.110.222.166.49122: Flags [P.], seq 1:2539, ack 225, win 508, options [nop,nop,TS val 3931800175 ecr 2084362274], length 2538: HTTP: HTTP/1.1 200 OK
+06:03:23.592527 IP 143.110.222.166.49122 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.http: Flags [.], ack 2539, win 497, options [nop,nop,TS val 2084362277 ecr 3931800175], length 0
+06:03:23.922738 IP 143.110.222.166.49122 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.http: Flags [F.], seq 225, ack 2539, win 501, options [nop,nop,TS val 2084362605 ecr 3931800175], length 0
+06:03:23.922910 IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.http > 143.110.222.166.49122: Flags [F.], seq 2539, ack 226, win 508, options [nop,nop,TS val 3931800506 ecr 2084362605], length 0
+06:03:23.923355 IP 143.110.222.166.49122 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.http: Flags [.], ack 2540, win 501, options [nop,nop,TS val 2084362607 ecr 3931800506], length 0
+10 packets captured
+10 packets received by filter
+0 packets dropped by kernel
+
+/*DETAILS*/
+
+PACKET 1)
+    Source Host: 143.110.222.166
+    Source Port: 49122
+    Destination Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Destination Port: 80
+
+PACKET 2)
+    Source Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Source Port: 80
+    Destination Host: 143.110.222.166
+    Destination Port: 49122
+
+PACKET 3)
+    Source Host: 143.110.222.166
+    Source Port: 49122
+    Destination Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Destination Port: 80
+
+PACKET 4)
+    Source Host: 143.110.222.166
+    Source Port: 49122
+    Destination Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.http:
+    Destination Port: 80
+
+PACKET 5)
+    Source Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Source Port: 80
+    Destination Host: 143.110.222.166
+    Destination Port: 49122
+
+PACKET 6)
+    Source Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Source Port: 80
+    Destination Host: 143.110.222.166
+    Destination Port: 49122
+
+PACKET 7)
+    Source Host: 143.110.222.166
+    Source Port: 49122
+    Destination Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Destination Port: 80
+
+PACKET 8)
+    Source Host: 143.110.222.166
+    Source Port: 49122
+    Destination Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Destination Port: 80
+
+PACKET 9)
+    Source Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Source Port: 80
+    Destination Host: 143.110.222.166
+    Destination Port: 49122
+
+PACKET 10)
+    Source Host: 143.110.222.166
+    Source Port: 49122
+    Destination Host: lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01
+    Destination Port: 80
