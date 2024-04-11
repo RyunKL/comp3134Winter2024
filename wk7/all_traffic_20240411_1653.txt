@@ -1,0 +1,36 @@
+tcpdump: data link type LINUX_SLL2
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+21:13:39.670994 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh > 162.243.190.66.53398: Flags [P.], seq 2150651810:2150651906, ack 50352906, win 502, options [nop,nop,TS val 850150638 ecr 405865840], length 96
+21:13:39.671123 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh > 162.243.190.66.53398: Flags [P.], seq 96:160, ack 1, win 502, options [nop,nop,TS val 850150639 ecr 405865840], length 64
+21:13:39.671436 eth0  In  IP 162.243.190.66.53398 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh: Flags [.], ack 96, win 501, options [nop,nop,TS val 405865849 ecr 850150638], length 0
+21:13:39.671548 eth0  In  IP 162.243.190.66.53398 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh: Flags [.], ack 160, win 501, options [nop,nop,TS val 405865849 ecr 850150639], length 0
+21:13:39.673461 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh > 162.243.190.66.53398: Flags [P.], seq 160:288, ack 1, win 502, options [nop,nop,TS val 850150641 ecr 405865849], length 128
+21:13:39.673556 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh > 162.243.190.66.53398: Flags [P.], seq 288:352, ack 1, win 502, options [nop,nop,TS val 850150641 ecr 405865849], length 64
+21:13:39.673647 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh > 162.243.190.66.53398: Flags [P.], seq 352:432, ack 1, win 502, options [nop,nop,TS val 850150641 ecr 405865849], length 80
+21:13:39.673751 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh > 162.243.190.66.53398: Flags [P.], seq 432:528, ack 1, win 502, options [nop,nop,TS val 850150641 ecr 405865849], length 96
+21:13:39.673893 eth0  In  IP 162.243.190.66.53398 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh: Flags [.], ack 288, win 501, options [nop,nop,TS val 405865851 ecr 850150641], length 0
+21:13:39.673947 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh > 162.243.190.66.53398: Flags [P.], seq 528:608, ack 1, win 502, options [nop,nop,TS val 850150641 ecr 405865851], length 80
+21:13:39.674010 eth0  In  IP 162.243.190.66.53398 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh: Flags [.], ack 352, win 501, options [nop,nop,TS val 405865851 ecr 850150641], length 0
+21:13:39.674042 eth0  In  IP 162.243.190.66.53398 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh: Flags [.], ack 432, win 501, options [nop,nop,TS val 405865851 ecr 850150641], length 0
+21:13:39.674049 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh > 162.243.190.66.53398: Flags [P.], seq 608:672, ack 1, win 502, options [nop,nop,TS val 850150641 ecr 405865851], length 64
+21:13:39.674116 eth0  In  IP 162.243.190.66.53398 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh: Flags [.], ack 528, win 501, options [nop,nop,TS val 405865851 ecr 850150641], length 0
+21:13:39.674248 eth0  In  IP 162.243.190.66.53398 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh: Flags [.], ack 608, win 501, options [nop,nop,TS val 405865852 ecr 850150641], length 0
+21:13:39.674345 eth0  In  IP 162.243.190.66.53398 > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.ssh: Flags [.], ack 672, win 501, options [nop,nop,TS val 405865852 ecr 850150641], length 0
+21:13:39.774523 lo    In  IP localhost.41341 > localhost.domain: 6034+ [1au] PTR? 66.190.243.162.in-addr.arpa. (56)
+21:13:39.774831 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.34950 > 67.207.67.3.domain: 36429+ [1au] PTR? 66.190.243.162.in-addr.arpa. (56)
+21:13:39.774916 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.40531 > 67.207.67.3.domain: 28726+ [1au] PTR? 66.190.243.162.in-addr.arpa. (56)
+21:13:39.774956 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.59252 > 67.207.67.2.domain: Flags [S], seq 1368705051, win 64240, options [mss 1460,sackOK,TS val 3305455671 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+21:13:39.776361 eth0  In  IP 67.207.67.3.domain > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.40531: 28726 NXDomain 0/1/1 (123)
+21:13:39.776361 eth0  In  IP 67.207.67.3.domain > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.34950: 36429 NXDomain 0/1/1 (123)
+21:13:39.776501 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.40531 > 67.207.67.3.domain: 28726+ PTR? 66.190.243.162.in-addr.arpa. (45)
+21:13:39.776585 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.34950 > 67.207.67.3.domain: 36429+ PTR? 66.190.243.162.in-addr.arpa. (45)
+21:13:39.776831 eth0  In  IP 67.207.67.3.domain > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.40531: 28726 NXDomain 0/1/0 (112)
+21:13:39.776903 eth0  In  IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.59252: Flags [S.], seq 3070874603, ack 1368705052, win 65160, options [mss 1460,sackOK,TS val 2713961521 ecr 3305455671,nop,wscale 9], length 0
+21:13:39.776903 eth0  In  IP 67.207.67.3.domain > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.34950: 36429 NXDomain 0/1/0 (112)
+21:13:39.776956 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.59252 > 67.207.67.2.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 3305455673 ecr 2713961521], length 0
+21:13:39.777356 eth0  Out IP lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.59252 > 67.207.67.2.domain: Flags [P.], seq 1:48, ack 1, win 502, options [nop,nop,TS val 3305455674 ecr 2713961521], length 47 24898+ PTR? 66.190.243.162.in-addr.arpa. (45)
+21:13:39.777681 eth0  In  IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01.59252: Flags [.], ack 48, win 128, options [nop,nop,TS val 2713961523 ecr 3305455674], length 0
+30 packets captured
+155 packets received by filter
+0 packets dropped by kernel
