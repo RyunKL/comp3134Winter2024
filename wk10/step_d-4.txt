@@ -1,0 +1,5 @@
+1) What I see
+ - Nothing same webpage as it was two levels in the directory previously
+
+2) Sensitive information given
+ - Possibly leaking subdirectory information to the general public

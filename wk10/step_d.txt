@@ -1,0 +1,9 @@
+1) What do I see on the browser?
+
+ANS: Two warning messages
+
+2) What sensitive information is given by this page?
+
+ANS:
+    - It displays the file name of the php script running
+    - Shows the server's absolute path/directory structure

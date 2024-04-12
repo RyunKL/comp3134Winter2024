@@ -1,0 +1,6 @@
+In this code:
+
+We define the HTML directory path ($html_directory). You should adjust this path to match the location of your HTML directory on your server.
+We check if the provided path is not empty. If it's not empty, we resolve the absolute path using realpath() and prepend the HTML directory path.
+We check if the resolved absolute path is within the HTML directory. If it's not within the HTML directory, we default the path to the HTML directory.
+Finally, we print the directory listing using scandir(), providing the full path.

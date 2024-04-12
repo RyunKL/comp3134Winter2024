@@ -1,0 +1,8 @@
+1) What I see
+ - the query parameter q=%2e%2e%2f
+ - %2e represents . a dot and %2f represents / 
+ - it is trying to acces one level above our origin directory (/var/www/html)
+
+2) Sensitive information given
+ - directory name html
+ - folder wk10 given
