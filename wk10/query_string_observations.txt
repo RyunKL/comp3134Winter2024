@@ -1,0 +1,13 @@
+1.) the searched word is added to the route parameter
+https://www.dictionary.com/browse/<words that you will search will be put here> 
+
+2.) if the word does not exist it will go to another page read the route parameter
+but since the word i search does not exist it will throw a text of
+" No results found for spaceglider "
+
+3.) It handles the script word after entring as a search query as invalid
+but in the url https://www.dictionary.com/browse/%3Cscript%3Ealert(%2527hello%2527)%3C%2Fscript%3E
+is what is shown
+
+4.) as soon as i enter https://www.dictionary.com<script>alert('hello')</script>/browse/hello
+it becomes a google search

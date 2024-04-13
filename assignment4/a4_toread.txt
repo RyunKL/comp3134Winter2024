@@ -1,0 +1,5 @@
+to change the background color in php use this code document.body.style.backgroundColor = "blue";
+to install php use the apt package manager to install PHP. Use this command sudo apt install php libapache2-mod-php
+simple line 3
+simple line 4
+simple line 5

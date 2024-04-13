@@ -1,0 +1,7 @@
+<h1>Assignment 4 Task 1</h1>
+<?php
+    $user_output = "output string"
+    echo $user_output
+
+    $alert = "<script>alert($user_output);</script>";
+    echo $alert;
